@@ -1,0 +1,16 @@
+{
+  "name": "search-gif-jsx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Reder",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "https-server": "^0.1.2"
+  }
+}

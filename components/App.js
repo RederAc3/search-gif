@@ -45,18 +45,15 @@ App = React.createClass({
                         var data = JSON.parse(xhr.responseText).data;
 
                         if (data.type === 'gif') {
-
                             var gif = {
                                 url: data.fixed_width_downsampled_url,
                                 sourceUrl: data.url
                             };
                             resolve(gif);
-
                         } else {
                             reject(new Error('Gif not found'));
                         }
-
-
+                        
                     } else {
                         reject(new Error(this.statustext));
                     }
